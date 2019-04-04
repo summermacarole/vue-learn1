@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "app": "nodemon app/index.js",
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -12,6 +13,10 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "iview": "^3.3.3",
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mockjs": "^1.0.1-beta3",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
